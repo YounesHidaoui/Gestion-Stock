@@ -1,0 +1,57 @@
+*{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h2{
+    color:rgb(15, 13, 13)
+}
+.bar{
+    display: flex;
+    place-content: center;
+    place-items: center;
+    margin-top:100px ;
+
+}
+
+.char_box{
+    display: flex;
+    place-content: center;
+    margin-top: -80px;
+     
+}
+
+.chart{
+    margin-top: 20px;
+    display: flex;
+    place-items: center;
+    place-content: center;
+    
+}
+.bg{
+
+    background-color: rgb(241, 245, 245);
+}
+.products span{
+    margin-bottom: 3px;
+    animation-name: show;
+    animation-duration: 3s;
+    transition: 3s;
+    animation-delay: -2s;
+    animation-iteration-count: infinite;
+    width: 100%;
+    padding: 2px 10px;
+}
+
+
+@keyframes show {
+    from {background-color: rgba(126, 123, 123, 0.676); }
+  to {background-color: rgb(73, 237, 249);}
+}
+
+
+
+
+.title_1{
+    display: flex;
+    justify-content: center;
+}

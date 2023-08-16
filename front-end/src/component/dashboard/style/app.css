@@ -1,0 +1,22 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.bk{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(168, 171, 176);
+  
+}
+
+li {
+    color: rgb(66, 71, 71);;
+}
+a {
+    color: blue;
+}
+
+h2 {
+    color: rgb(66, 71, 71);
+}
